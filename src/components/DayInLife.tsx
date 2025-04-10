@@ -49,7 +49,7 @@ export default function DayInLife() {
           <FadeIn delay={100}>
               <div className="mt-6 flex justify-center">
                 <img 
-                  src="/innovative-homepage-magic/images/image_logo.png" 
+                  src="/images/image_logo.png" 
                   alt="Hustar Logo" 
                   className="h-16 w-auto" 
                 />

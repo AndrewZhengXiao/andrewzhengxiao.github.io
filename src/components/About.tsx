@@ -23,7 +23,7 @@ export default function About() {
           <FadeIn direction="right">
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="/innovative-homepage-magic/images/image2.png"
+                src="/images/image2.png"
                 alt="Hustar team"
                 className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[400px] object-cover"
               />

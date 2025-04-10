@@ -9,7 +9,7 @@ export default function Hero() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: 'url(/innovative-homepage-magic/images/Image1.jpeg)', 
+            backgroundImage: 'url(/images/Image1.jpeg)', 
             backgroundPosition: 'center',
             backgroundSize: 'cover'
           }}
@@ -23,7 +23,7 @@ export default function Hero() {
             <FadeIn delay={300}>
               <div className="flex justify-center">
                 <img 
-                  src="/innovative-homepage-magic/images/image_logo_w1.svg" 
+                  src="/images/image_logo_w1.svg" 
                   alt="Hustar Logo" 
                   className="h-20 sm:h-24 md:h-32 w-auto" 
                 />

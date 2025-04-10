@@ -66,7 +66,7 @@ export default function Header() {
             {/* Logo */}
             <a href="#" className="flex items-center mx-8">
               <img 
-                src="/innovative-homepage-magic/images/image_logo.png" 
+                src="/images/image_logo.png" 
                 alt="Hustar Logo" 
                 className="h-10 w-auto" 
               />
@@ -87,7 +87,7 @@ export default function Header() {
           <div className="md:hidden flex items-center justify-between w-full">
             <a href="#" className="flex items-center">
               <img 
-                src="/innovative-homepage-magic/images/image_logo.png" 
+                src="/images/image_logo.png" 
                 alt="Hustar Logo" 
                 className="h-8 w-auto" 
               />
@@ -126,7 +126,7 @@ export default function Header() {
             <div className="sticky top-0 z-10 bg-white p-6 border-b">
               <div className="flex justify-between items-center">
                 <img 
-                  src="/innovative-homepage-magic/images/image_logo.png" 
+                  src="/images/image_logo.png" 
                   alt="Hustar Logo" 
                   className="h-8 w-auto" 
                 />
