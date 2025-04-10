@@ -33,7 +33,7 @@ export default function About() {
           <div className="space-y-4 md:space-y-6 mt-4 lg:mt-0">
             <FadeIn delay={200}>
               <p className="text-base md:text-lg text-gray-600">
-                Hustarは、人材紹介を軸に事業展開する企業です。
+              Hustarは、グローバル人材採用サービスを軸に事業展開する企業です。
               </p>
             </FadeIn>
             
