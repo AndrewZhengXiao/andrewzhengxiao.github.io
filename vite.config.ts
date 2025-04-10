@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({  
-  // 确保base路径正确
-  base: "/innovative-homepage-magic/",
+  // 修改base路径为根路径，适应username.github.io部署
+  base: "/",
   server: {
     host: "::",
     port: 8080,

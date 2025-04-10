@@ -11,12 +11,11 @@
       var origin = location.origin;
       var pathname = location.pathname;
       
-      // 项目名称是路径的第一部分
-      var repo = 'innovative-homepage-magic';
+      // 使用根域名部署，不需要项目名称前缀
       
-      // 使用哈希路由而不是查询参数
-      var path = pathname.replace(new RegExp('^\/' + repo + '(\/|$)'), '/') || '/';
-      var redirectUrl = origin + '/' + repo + '/#' + path;
+      // 使用哈希路由
+      var path = pathname || '/';
+      var redirectUrl = origin + '/#' + path;
       
       // 存储重定向路径以备后用
       localStorage.setItem('redirect_path', path);
@@ -25,6 +24,6 @@
   </script>
 </head>
 <body>
-  <p>如果您没有被自动重定向，请<a href="/innovative-homepage-magic/">点击这里</a>。</p>
+  <p>如果您没有被自动重定向，请<a href="/">点击这里</a>。</p>
 </body>
 </html>
