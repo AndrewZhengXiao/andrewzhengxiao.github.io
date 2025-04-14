@@ -65,21 +65,32 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">サービス</h3>
             <ul className="space-y-3">
               {[
-                'キャリアコンサルティング',
-                '転職サポート',
-                '面接対策',
-                '書類添削',
-                'キャリア研修',
-              ].map((item) => (
-                <li key={item}>
-                  <a
-                    href="#services"
-                    className="text-gray-400 hover:text-white transition-colors"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+                '企業様向けサービス',
+                '求職者様向けサービス',
+                'グローバルタレントコネクト',
+                '在留資格・入国サポート',
+                '日本語・マナー研修',
+              ].map((item, index) => {
+                // 各サービスに対応するIDを設定
+                const serviceLinks = [
+                  '#corporate-service',      // 企業様向けサービス
+                  '#job-seeker-service',    // 求職者様向けサービス
+                  '#global-talent-connect', // グローバルタレントコネクト
+                  '#additional-options',    // 在留資格・入国サポート
+                  '#additional-options',    // 日本語・マナー研修
+                ];
+                
+                return (
+                  <li key={item}>
+                    <a
+                      href={serviceLinks[index]}
+                      className="text-gray-400 hover:text-white transition-colors"
+                    >
+                      {item}
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </FadeIn>
           
