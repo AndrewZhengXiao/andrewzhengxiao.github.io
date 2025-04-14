@@ -53,7 +53,7 @@ export default function Flow() {
           
           <FadeIn delay={200}>
             <p className="mt-4 text-lg text-gray-600">
-              Hustarでは、お客様のキャリアをサポートするために以下のステップでサービスを提供しています。
+            お客様のキャリアをサポートするために以下のステップでサービスを提供しています。
             </p>
           </FadeIn>
         </div>

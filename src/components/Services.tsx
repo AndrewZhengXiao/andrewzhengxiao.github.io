@@ -57,8 +57,8 @@ export default function Services() {
             <div className="text-center max-w-3xl mx-auto mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4">グローバルタレントコネクト</h3>
               <p className="text-sm md:text-base text-gray-600">
-                国内外の優秀な人材と企業をつなぐ、Hustarのグローバル人材紹介サービスです。
-                多様な職種と人材特性に対応し、最適なマッチングを実現します。
+                国内外の優秀な人材と企業を繋ぐ、Hustarのグローバル人材紹介サービスです。
+                <br />多様な職種と人材特性に対応し、最適なマッチングを実現します。
               </p>
             </div>
           </FadeIn>
@@ -127,7 +127,7 @@ export default function Services() {
                     </div>
                     <div>
                       <h4 className="text-md font-medium text-gray-800 mb-1">多様な国籍</h4>
-                      <p className="text-sm text-gray-600 bg-gray-50 px-3 py-1 rounded-lg inline-block">中国、アメリカ、スペイン、ロシア、インドなど（日本人求職者もいらっしゃいます）</p>
+                      <p className="text-sm text-gray-600 bg-gray-50 px-3 py-1 rounded-lg inline-block">中国、アメリカ、スペイン、ロシア、インドなど <br />（日本人求職者もいらっしゃいます）</p>
                     </div>
                   </div>
                   
@@ -171,8 +171,8 @@ export default function Services() {
             <div className="text-center max-w-3xl mx-auto mb-8">
               <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4">追加オプション</h3>
               <p className="text-sm md:text-base text-gray-600">
-                お客様のニーズに合わせた追加サービスをご用意しております。
-                各種手続きから研修まで、幅広くサポートいたします。
+                お客様のニーズに合わせた追加オプションサービスをご用意しております。
+                <br />各種手続きから研修まで、幅広くサポート致します。
               </p>
             </div>
           </FadeIn>

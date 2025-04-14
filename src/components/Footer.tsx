@@ -73,8 +73,8 @@ export default function Footer() {
               ].map((item, index) => {
                 // 各サービスに対応するIDを設定
                 const serviceLinks = [
-                  '#corporate-service',      // 企業様向けサービス
-                  '#job-seeker-service',    // 求職者様向けサービス
+                  '#services',      // 企業様向けサービス - サービスセクションへ
+                  '#services',    // 求職者様向けサービス - サービスセクションへ
                   '#global-talent-connect', // グローバルタレントコネクト
                   '#additional-options',    // 在留資格・入国サポート
                   '#additional-options',    // 日本語・マナー研修
